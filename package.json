@@ -1,0 +1,31 @@
+{
+  "name": "saassoft-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.0.7",
+    "@nuxt/icon": "^1.10.3",
+    "@pinia-plugin-persistedstate/nuxt": "^1.2.1",
+    "nuxt": "^3.13.0",
+    "sass": "^1.85.0",
+    "sass-loader": "10.1.1",
+    "typescript": "^5.7.3",
+    "vite-plugin-vue-inspector": "^5.1.2",
+    "vue": "^3.4.38",
+    "vue-router": "^4.4.3"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.4",
+    "cookie-universal-nuxt": "^2.2.2",
+    "element-plus": "^2.9.5",
+    "pinia": "^2.2.2",
+    "pinia-plugin-persistedstate": "^3.2.3"
+  }
+}

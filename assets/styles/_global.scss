@@ -1,0 +1,79 @@
+:root {
+  --app-height: 100%;
+
+  --white: #ffffff;
+  --black: #000000;
+
+  --customWhite: #DFDFDF;
+
+  --mainBg: #1C1D21;
+  --mainBgLight: #23242A;
+
+  --grayBorder: #2E2F35;
+  
+  --red: #EC2525;
+  --darkRed: #702F2F;
+  
+  --green: #77a045;
+  --greenLight: #96C857;
+  --greenDisabled: #e8ffcb91;
+  --purple: #6F3B77;
+  --blue: #355CBF;
+
+  --darkYellow: #B79233;
+
+  --textForMainButtons: #1C1D21;
+
+  --grayText: #7A7C8B;
+  --grayText2: #868A9A;
+}
+
+body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+
+  background: var(--mainBg);
+
+  &.overflow-hidden {
+    overflow: hidden;
+  }
+}
+
+button {
+  touch-action: manipulation;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='numbr'] {
+  appearance: textfield;
+}
+
+.exact-active-link {
+  cursor: default;
+  pointer-events: none;
+}
+
+img[src=""] {
+  display: none;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
